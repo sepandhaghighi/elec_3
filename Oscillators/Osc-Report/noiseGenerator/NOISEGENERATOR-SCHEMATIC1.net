@@ -1,0 +1,10 @@
+* source NOISEGENERATOR
+Q_Q1         N03392 N01801 N03176 BC107A 
+R_R5         N02250 N00299  10K  
+R_R3         N03392 N00299  1K  
+R_R4         0 N03176  1K  
+R_R1         N01801 N00299  10k  
+C_C3         0 N03176  2.2u  
+D_D1         0 N02250 Dbreak 
+V_V1         N00299 0 10Vdc
+C_C1         N02250 N01801  2.2u  

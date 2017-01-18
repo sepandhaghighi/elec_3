@@ -1,0 +1,9 @@
+* source PHASESHIFT
+E_U1         N00323 0 VALUE {LIMIT(V(0,N00628)*1E6,-15V,+15V)}
+R_R1         N00628 N00323  43k  
+R_R2         N00406 N00628  1.5k  
+R_R3         0 N00239  1.5k  
+R_R4         0 N00281  1.5k  
+C_C1         N00239 N00323  100n  
+C_C2         N00281 N00239  100n  
+C_C3         N00406 N00281  100n IC=1v 

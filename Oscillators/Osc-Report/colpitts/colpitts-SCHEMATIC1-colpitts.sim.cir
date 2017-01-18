@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-colpitts"  [ c:\users\amir\desktop\elec3\colpitts\colpitts-schematic1-colpitts.sim ] 
+
+** Creating circuit file "colpitts-schematic1-colpitts.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20.2ms 20ms 1u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\colpitts-SCHEMATIC1.net" 
+
+
+.END

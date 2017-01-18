@@ -1,0 +1,8 @@
+* source COLPITTS
+Q_Q1         N00182 0 N00155 BC107A 
+R_R1         N00636 N00155  1k  
+C_C1         N00182 N00155  10u IC=1 
+C_C2         N00155 N00284  10u  
+L_L1         N00182 N00284  10uH  
+V_V2         N00284 0 5Vdc
+V_V3         0 N00636 5Vdc

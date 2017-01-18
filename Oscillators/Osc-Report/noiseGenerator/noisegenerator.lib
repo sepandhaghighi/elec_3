@@ -1,0 +1,5 @@
+* PSpice Model Editor - Version 9.2
+
+*$
+.model Dbreak D Is=1e-10 Cjo=.1pF Rs=.1 BV=5.1V IBV=10mA
+*$

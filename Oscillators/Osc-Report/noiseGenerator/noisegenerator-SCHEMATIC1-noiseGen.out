@@ -1,0 +1,145 @@
+
+**** 01/05/16 22:24:35 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-noiseGen"  [ c:\users\amir\desktop\elec3\noisegenerator\noisegenerator-SCHEMATIC1-noiseGen.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "noisegenerator-SCHEMATIC1-noiseGen.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+.LIB ".\noisegenerator.lib" 
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\noisegenerator-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING noisegenerator-SCHEMATIC1.net ****
+* source NOISEGENERATOR
+Q_Q1         N03392 N01801 N03176 BC107A 
+R_R5         N02250 N00299  10K  
+R_R3         N03392 N00299  1K  
+R_R4         0 N03176  1K  
+R_R1         N01801 N00299  10k  
+C_C3         0 N03176  2.2u  
+D_D1         0 N02250 Dbreak 
+V_V1         N00299 0 10Vdc
+C_C1         N02250 N01801  2.2u  
+
+**** RESUMING noisegenerator-SCHEMATIC1-noiseGen.sim.cir ****
+.END
+
+**** 01/05/16 22:24:35 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-noiseGen"  [ c:\users\amir\desktop\elec3\noisegenerator\noisegenerator-SCHEMATIC1-noiseGen.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS  100.000000E-12 
+          BV    5.1          
+         IBV     .01         
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 01/05/16 22:24:35 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-noiseGen"  [ c:\users\amir\desktop\elec3\noisegenerator\noisegenerator-SCHEMATIC1-noiseGen.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC107A          
+               NPN             
+          IS    7.049000E-15 
+          BF  375.5          
+          NF    1            
+         VAF  116.3          
+         IKF    4.589        
+         ISE    7.049000E-15 
+          NE    1.281        
+          BR    2.611        
+          NR    1            
+         IKR    5.313        
+         ISC  121.700000E-12 
+          NC    1.865        
+          RC    1.464        
+         CJE   11.500000E-12 
+         VJE     .5          
+         MJE     .2717       
+         CJC    5.380000E-12 
+         VJC     .6218       
+         MJC     .329        
+          TF  451.000000E-12 
+         XTF   17.43         
+         VTF   10            
+         ITF    6.194        
+          TR   10.000000E-09 
+         XTB    1.5          
+          CN    2.42         
+           D     .87         
+
+
+**** 01/05/16 22:24:35 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-noiseGen"  [ c:\users\amir\desktop\elec3\noisegenerator\noisegenerator-SCHEMATIC1-noiseGen.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00299)   10.0000 (N01801)    5.8855 (N02250)    5.0225 (N03176)    5.1753     
+
+(N03392)    5.2361 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.673E-03
+
+    TOTAL POWER DISSIPATION   5.67E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .02
+

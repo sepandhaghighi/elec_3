@@ -1,0 +1,18 @@
+** Profile: "SCHEMATIC1-noiseGen"  [ c:\users\amir\desktop\elec3\noisegenerator\noisegenerator-SCHEMATIC1-noiseGen.sim ] 
+
+** Creating circuit file "noisegenerator-SCHEMATIC1-noiseGen.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+.LIB ".\noisegenerator.lib" 
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10s 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\noisegenerator-SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,93 @@
+
+**** 01/05/16 19:35:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wien"  [ c:\users\amir\desktop\elec3\wien\wien-schematic1-wien.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wien-schematic1-wien.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2ms 0 100u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\wien-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING wien-SCHEMATIC1.net ****
+* source WIEN
+E_U1         N00270 0 VALUE {LIMIT(V(N00239,N00613)*1E6,-15V,+15V)}
+R_R1         N00613 N00270  2.2k  
+R_R2         0 N00613  1k  
+R_R3         0 N00239  1.5k  
+C_C1         N01209 N00239  100n IC=1v 
+C_C2         0 N00239  100n IC=1v 
+R_R6         N01209 N00270  1.5k  
+
+**** RESUMING wien-schematic1-wien.sim.cir ****
+.END
+
+**** 01/05/16 19:35:27 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-wien"  [ c:\users\amir\desktop\elec3\wien\wien-schematic1-wien.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00239)   -1.0000 (N00270)   -3.2000 (N00613)   -1.0000 (N01209)-7.200E-06 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+ERROR -- Convergence problem in transient analysis at Time =  1.664E-03
+         Time step =  582.1E-18, minimum allowable step size =  2.000E-15
+
+  These voltages failed to converge:
+
+    V(N00270)                 =     15.00V  \    -15.00V
+    V(N00613)                 =     4.688V  \    -4.688V
+
+  These supply currents failed to converge:
+
+    I(E_U1)                   =   -6.813mA  \    22.56mA
+
+  These devices failed to converge:
+    E_U1      
+
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00239)    4.6874 (N00270)   15.0000 (N00613)    4.6875 (N01209)   11.8110 
+

@@ -1,0 +1,11 @@
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\bin\Debug\Noise_Gen.exe.config
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\bin\Debug\Noise_Gen.exe
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\bin\Debug\Noise_Gen.pdb
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\bin\Debug\Noise_Gen.xml
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.Form1.resources
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.Resources.resources
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.vbproj.GenerateResource.Cache
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.exe
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.xml
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.pdb
+C:\Users\sepand\Desktop\Pulse_sensor\Computer Code\VB\Noise_Gen\Noise_Gen\obj\Debug\Noise_Gen.vbprojResolveAssemblyReference.cache
