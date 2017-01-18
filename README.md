@@ -1,10 +1,11 @@
 # elec_3
-Electronic_3 Free Homeworks
+
+#Electronic 3 Homeworks & Project
 
 
 ----------
 
-By Sepand Haghighi & Amirmohammad Naderi
+By [Sepand Haghighi](http://github.com/sepandhaghighi) & [Amirmohammad Naderi](https://github.com/Amiiir)
 
 ----------
 - Smart Noise Generator
