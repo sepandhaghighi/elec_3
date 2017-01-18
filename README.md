@@ -11,4 +11,4 @@ By Sepand Haghighi & Amirmohammad Naderi
 - Oscillator (Wien , Colpitts , Hartley)
 - Simple Piano With 4046
 
-[Webpage]("http://www.shaghighi.ir/elec_3")
+[http://www.shaghighi.ir/elec_3](http://www.shaghighi.ir/elec_3 "Webpage")
